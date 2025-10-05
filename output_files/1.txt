@@ -1,0 +1,101 @@
+0, 1000, CPU burst
+1000, 1, switch to kernel mode
+1001, 1, context saved
+1002, 1, find vector 5 in memory position 0x000A
+1003, 1, load address 0X048B into the PC
+1004, 71, run ISR
+1075, 70, transfer data
+1145, 70, check errors
+1215, 1, IRET
+1216, 1000, CPU burst
+2216, 1, check priority of interrupt
+2217, 1, check if masked
+2218, 1, switch to kernel mode
+2219, 1, context saved
+2220, 1, find vector 5 in memory position 0x000A
+2221, 1, load address 0X048B into the PC
+2222, 71, run ISR
+2293, 70, transfer data
+2363, 70, check errors
+2433, 1, IRET
+2434, 1000, CPU burst
+3434, 1, switch to kernel mode
+3435, 1, context saved
+3436, 1, find vector 10 in memory position 0x0014
+3437, 1, load address 0X07B0 into the PC
+3438, 188, run ISR
+3626, 188, transfer data
+3814, 188, check errors
+4002, 1, IRET
+4003, 1000, CPU burst
+5003, 1, check priority of interrupt
+5004, 1, check if masked
+5005, 1, switch to kernel mode
+5006, 1, context saved
+5007, 1, find vector 10 in memory position 0x0014
+5008, 1, load address 0X07B0 into the PC
+5009, 188, run ISR
+5197, 188, transfer data
+5385, 188, check errors
+5573, 1, IRET
+5574, 1000, CPU burst
+6574, 1, switch to kernel mode
+6575, 1, context saved
+6576, 1, find vector 6 in memory position 0x000C
+6577, 1, load address 0X0639 into the PC
+6578, 89, run ISR
+6667, 88, transfer data
+6755, 88, check errors
+6843, 1, IRET
+6844, 1000, CPU burst
+7844, 1, check priority of interrupt
+7845, 1, check if masked
+7846, 1, switch to kernel mode
+7847, 1, context saved
+7848, 1, find vector 6 in memory position 0x000C
+7849, 1, load address 0X0639 into the PC
+7850, 89, run ISR
+7939, 88, transfer data
+8027, 88, check errors
+8115, 1, IRET
+8116, 1000, CPU burst
+9116, 1, switch to kernel mode
+9117, 1, context saved
+9118, 1, find vector 4 in memory position 0x0008
+9119, 1, load address 0X0292 into the PC
+9120, 84, run ISR
+9204, 83, transfer data
+9287, 83, check errors
+9370, 1, IRET
+9371, 1000, CPU burst
+10371, 1, check priority of interrupt
+10372, 1, check if masked
+10373, 1, switch to kernel mode
+10374, 1, context saved
+10375, 1, find vector 4 in memory position 0x0008
+10376, 1, load address 0X0292 into the PC
+10377, 84, run ISR
+10461, 83, transfer data
+10544, 83, check errors
+10627, 1, IRET
+10628, 1000, CPU burst
+11628, 1, switch to kernel mode
+11629, 1, context saved
+11630, 1, find vector 7 in memory position 0x000E
+11631, 1, load address 0X00BD into the PC
+11632, 51, run ISR
+11683, 51, transfer data
+11734, 50, check errors
+11784, 1, IRET
+11785, 1000, CPU burst
+12785, 1, check priority of interrupt
+12786, 1, check if masked
+12787, 1, switch to kernel mode
+12788, 1, context saved
+12789, 1, find vector 7 in memory position 0x000E
+12790, 1, load address 0X00BD into the PC
+12791, 51, run ISR
+12842, 51, transfer data
+12893, 50, check errors
+12943, 1, IRET
+12944, 1000, CPU burst
