@@ -30,8 +30,8 @@ int main(int argc, char** argv) {
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
 		if (activity == "CPU") {
-			execution += std::to_string(cur_time) + ", " + std::to_string(duration_intr) + ", CPU burst\n";
-			cur_time += duration_intr;
+			execution += std::to_string(cur_time) + ", " + std::to_string(1000) + ", CPU burst\n";
+			cur_time += 1000;
 		}
 		
 		else if (activity == "SYSCALL") {
@@ -40,6 +40,7 @@ int main(int argc, char** argv) {
 			cur_time = intr_boilerplate_cur_time;
 			
 			thirdOfDelay = delays[duration_intr] / 3.0;
+
 			
 			if (static_cast<int>(thirdOfDelay) == thirdOfDelay) {
 				runIsrDuration = transferDataDuration = checkErrorsDuration = static_cast<int>(thirdOfDelay);
